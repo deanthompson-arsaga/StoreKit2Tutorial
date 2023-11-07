@@ -25,6 +25,7 @@
 		F70646ED2AFA016E00ECAB87 /* StoreKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitManager.swift; sourceTree = "<group>"; };
 		F70646EF2AFA078700ECAB87 /* ImageViewerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewerRepresentable.swift; sourceTree = "<group>"; };
 		F70646F12AFA07AC00ECAB87 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F70CEA5C2AFA25340011ABFE /* StoreConfig.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = StoreConfig.storekit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +63,7 @@
 				F70646ED2AFA016E00ECAB87 /* StoreKitManager.swift */,
 				F70646F12AFA07AC00ECAB87 /* DetailView.swift */,
 				F70646EF2AFA078700ECAB87 /* ImageViewerRepresentable.swift */,
+				F70CEA5C2AFA25340011ABFE /* StoreConfig.storekit */,
 				F70646E32AF9FF3100ECAB87 /* Assets.xcassets */,
 				F70646E52AF9FF3100ECAB87 /* Preview Content */,
 			);

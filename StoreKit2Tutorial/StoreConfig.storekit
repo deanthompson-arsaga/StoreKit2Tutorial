@@ -1,0 +1,158 @@
+{
+  "identifier" : "7A00EC1E",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "5A0C5FFA",
+      "localizations" : [
+        {
+          "description" : "Fukase is an iOS Engineer at Arsaga.",
+          "displayName" : "ULTRA",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "ウルトラはiOS開発者です。",
+          "displayName" : "ウルトラ",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "ArsagaThompson.StoreKit2Tutorial.ultra",
+      "referenceName" : "ultra",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "40B23468",
+      "localizations" : [
+        {
+          "description" : "Ando is an iOS Developer.",
+          "displayName" : "Ando",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "安藤はiOSエンジニアです。",
+          "displayName" : " 安藤",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "ArsagaThompson.StoreKit2Tutorial.ando",
+      "referenceName" : "ando",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "F62640AD",
+      "localizations" : [
+        {
+          "description" : "Akaishi's pet ferret",
+          "displayName" : "Akaishi's pet",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "赤石のペット",
+          "displayName" : "赤石のペット",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "ArsagaThompson.StoreKit2Tutorial.akaishiPet",
+      "referenceName" : "akaishi_pet",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "27FF8DAD",
+      "localizations" : [
+        {
+          "description" : "Yoshida is the App Div DM. ",
+          "displayName" : "Yoshida",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "吉田はアプリdivのDMです。",
+          "displayName" : "吉田",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "ArsagaThompson.StoreKit2Tutorial.yoshida",
+      "referenceName" : "yoshida",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "508766FB",
+      "localizations" : [
+        {
+          "description" : "Tomoaki is an iOS Engineer",
+          "displayName" : "Tomoaki",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "智章はiOS開発者です。",
+          "displayName" : "智章",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "ArsagaThompson.StoreKit2Tutorial.tomoaki",
+      "referenceName" : "tomoaki",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "8F88D0A6",
+      "localizations" : [
+        {
+          "description" : "Uchida is an android engineer.",
+          "displayName" : "Uchida",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "内田はアンドロイド開発者です。",
+          "displayName" : "内田",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "ArsagaThompson.StoreKit2Tutorial.uchida",
+      "referenceName" : "uchida",
+      "type" : "NonConsumable"
+    },
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "D75435F4",
+      "localizations" : [
+        {
+          "description" : "Asakura is an iOS engineer",
+          "displayName" : "Asakura",
+          "locale" : "en_US"
+        },
+        {
+          "description" : "朝倉はiOS エンジニアです。",
+          "displayName" : "朝倉",
+          "locale" : "ja"
+        }
+      ],
+      "productID" : "ArsagaThompson.StoreKit2Tutorial.asakura",
+      "referenceName" : "asakura",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}
