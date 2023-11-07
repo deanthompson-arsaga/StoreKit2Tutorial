@@ -6,7 +6,7 @@
 //
 
 import Foundation
-// import StoreKit
+import StoreKit
 
 @MainActor
 final class StoreKitManager: ObservableObject {

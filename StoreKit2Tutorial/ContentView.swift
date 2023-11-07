@@ -11,7 +11,7 @@ struct ContentView: View {
     
     @StateObject var storeKitManager = StoreKitManager()
     
-    let imageNameArray: [String] = ["akaishi_pet", "ando", "asakura", "dean", "macchan", "tomoaki", "uchida", "ultra", "yoshida"]
+    let imageNameArray: [String] = ["akaishi_pet", "ando", "asakura", "tomoaki", "uchida", "ultra", "yoshida", "dean"]
     
     let columns: [GridItem] = [.init(.flexible()), .init(.flexible())]
     
@@ -28,7 +28,7 @@ struct ContentView: View {
                                     Image(imageString)
                                         .resizable()
                                         .scaledToFill()
-                                        .frame(width: geo.size.width / 2 - 24, height: geo.size.width / 2 - 32)
+                                        .frame(width: geo.size.width / 2 - 20, height: geo.size.width / 2 - 20)
                                         .clipped()
                                         .cornerRadius(8)
                                 }
@@ -37,16 +37,15 @@ struct ContentView: View {
                                 } label: {
                                     Text("Buy Now")
                                         .padding(8)
-                                        .frame(width: geo.size.width / 2 - 24)
+                                        .frame(width: geo.size.width / 2 - 20)
                                         .foregroundColor(.white)
                                         .background(.blue)
                                         .cornerRadius(8)
                                 }
                             }
-                            .frame(width: geo.size.width / 2 - 24)
                         }
                     }
-                    .padding()
+                    .padding(12)
                 }
             }
             .navigationTitle("App Div")
