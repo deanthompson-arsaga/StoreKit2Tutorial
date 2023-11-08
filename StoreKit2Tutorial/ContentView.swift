@@ -11,8 +11,6 @@ struct ContentView: View {
     
     @StateObject var storeKitManager = StoreKitManager()
     
-    let imageNameArray: [String] = ["akaishi_pet", "ando", "asakura", "tomoaki", "uchida", "ultra", "yoshida", "dean"]
-    
     let columns: [GridItem] = [.init(.flexible()), .init(.flexible())]
     
     var body: some View {
@@ -20,7 +18,7 @@ struct ContentView: View {
             GeometryReader { geo in
                 ScrollView {
                     LazyVGrid(columns: columns) {
-                        ForEach(imageNameArray, id: \.self) { imageString in
+                        ForEach(storeKitManager.storeKitIdentifiers, id: \.self) { imageString in
                             VStack {
                                 NavigationLink {
                                     DetailView(imageString: imageString)
