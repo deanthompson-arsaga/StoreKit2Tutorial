@@ -5,7 +5,7 @@
   ],
   "products" : [
     {
-      "displayPrice" : "0.99",
+      "displayPrice" : "50",
       "familyShareable" : false,
       "internalID" : "5A0C5FFA",
       "localizations" : [
@@ -20,12 +20,12 @@
           "locale" : "ja"
         }
       ],
-      "productID" : "ArsagaThompson.StoreKit2Tutorial.ultra",
+      "productID" : "ultra",
       "referenceName" : "ultra",
       "type" : "NonConsumable"
     },
     {
-      "displayPrice" : "0.99",
+      "displayPrice" : "70",
       "familyShareable" : false,
       "internalID" : "40B23468",
       "localizations" : [
@@ -40,12 +40,12 @@
           "locale" : "ja"
         }
       ],
-      "productID" : "ArsagaThompson.StoreKit2Tutorial.ando",
+      "productID" : "ando",
       "referenceName" : "ando",
       "type" : "NonConsumable"
     },
     {
-      "displayPrice" : "0.99",
+      "displayPrice" : "100",
       "familyShareable" : false,
       "internalID" : "F62640AD",
       "localizations" : [
@@ -60,12 +60,12 @@
           "locale" : "ja"
         }
       ],
-      "productID" : "ArsagaThompson.StoreKit2Tutorial.akaishiPet",
+      "productID" : "akaishi_pet",
       "referenceName" : "akaishi_pet",
       "type" : "NonConsumable"
     },
     {
-      "displayPrice" : "0.99",
+      "displayPrice" : "90",
       "familyShareable" : false,
       "internalID" : "27FF8DAD",
       "localizations" : [
@@ -80,12 +80,12 @@
           "locale" : "ja"
         }
       ],
-      "productID" : "ArsagaThompson.StoreKit2Tutorial.yoshida",
+      "productID" : "yoshida",
       "referenceName" : "yoshida",
       "type" : "NonConsumable"
     },
     {
-      "displayPrice" : "0.99",
+      "displayPrice" : "80",
       "familyShareable" : false,
       "internalID" : "508766FB",
       "localizations" : [
@@ -100,12 +100,12 @@
           "locale" : "ja"
         }
       ],
-      "productID" : "ArsagaThompson.StoreKit2Tutorial.tomoaki",
+      "productID" : "tomoaki",
       "referenceName" : "tomoaki",
       "type" : "NonConsumable"
     },
     {
-      "displayPrice" : "0.99",
+      "displayPrice" : "60",
       "familyShareable" : false,
       "internalID" : "8F88D0A6",
       "localizations" : [
@@ -120,12 +120,12 @@
           "locale" : "ja"
         }
       ],
-      "productID" : "ArsagaThompson.StoreKit2Tutorial.uchida",
+      "productID" : "uchida",
       "referenceName" : "uchida",
       "type" : "NonConsumable"
     },
     {
-      "displayPrice" : "0.99",
+      "displayPrice" : "40",
       "familyShareable" : false,
       "internalID" : "D75435F4",
       "localizations" : [
@@ -140,13 +140,14 @@
           "locale" : "ja"
         }
       ],
-      "productID" : "ArsagaThompson.StoreKit2Tutorial.asakura",
+      "productID" : "asakura",
       "referenceName" : "asakura",
       "type" : "NonConsumable"
     }
   ],
   "settings" : {
-
+    "_failTransactionsEnabled" : true,
+    "_storeKitError" : 0
   },
   "subscriptionGroups" : [
 
