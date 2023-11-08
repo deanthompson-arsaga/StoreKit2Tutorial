@@ -42,6 +42,18 @@ struct ContentView: View {
                                             storeKitManager.selectProductForPurchase(product)
                                             isShowingAlert = true
                                         }
+                                        .alert(isPresented: $isShowingAlert) {
+                                            Alert(
+                                                title: Text("Purchase needed"),
+                                                message: Text("Would you like to buy \(storeKitManager.selectedProductForPurchase?.displayPrice ?? "") to view this picture?"),
+                                                primaryButton: .default(Text("Buy Now")) {
+                                                    Task {
+                                                        await storeKitManager.purchaseSelectedProduct()
+                                                    }
+                                                },
+                                                secondaryButton: .cancel()
+                                            )
+                                        }
                                 }
                                 
                                 Button {
@@ -56,22 +68,20 @@ struct ContentView: View {
                                         .background(storeKitManager.isProductPurchased(product.id) ? .green : .blue)
                                         .cornerRadius(8)
                                 }
+                                .alert(isPresented: $storeKitManager.hasError) {
+                                    Alert(
+                                        title: Text("ERROR"),
+                                        message: Text("There was an error with your purchase"),
+                                        dismissButton: .default(Text("OK")) {
+                                            storeKitManager.reset()
+                                        }
+                                    )
+                                }
                             }
                         }
                     }
                     .padding(12)
-                    .alert(isPresented: $isShowingAlert) {
-                        Alert(
-                            title: Text("Purchase needed"),
-                            message: Text("Would you like to buy \(storeKitManager.selectedProductForPurchase?.displayPrice ?? "") to view this picture?"),
-                            primaryButton: .default(Text("Buy Now")) {
-                                Task {
-                                    await storeKitManager.purchaseSelectedProduct()
-                                }
-                            },
-                            secondaryButton: .cancel()
-                        )
-                    }
+                    
                 }
             }
             .navigationTitle("App Div")
